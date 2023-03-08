@@ -1,0 +1,56 @@
+// Exercice #1
+
+//Le client me tend le ticket
+//Je prend le ticket
+//Je fais passer le ticket dans la borne 
+//Le chiffre du ticket est de 6 or pour gagner il doit etre compris entre 1 et 5
+// Donc il a perdu
+// Je l'invite donc à retenter sa chance
+
+
+
+// Exercice #2
+
+//Le client se presente à la caisse 
+//Il met ses articles sur le tapis
+//Ma caisse est cassé
+//Donc je dois compter manuellement
+//Je passe les articles
+//J'ecris chaque nombre 
+//J'ai finis de passer les articles 
+//J'additionne chaque montant HT
+//Je rajoute la TVA de 20%
+//Je donne le montant au client
+
+
+// Exercice #3
+
+// const organism: string ='Simplon'
+// const learners: number = 15
+// const promotionStarted: boolean = true
+// :[]
+// :any
+// :null
+
+
+// Exercice #4
+
+function greet(country: string) {
+  console.log(`Hello from ${country}!`);
+}
+
+const country: string = "France";
+
+greet(country);
+
+
+// Exercice #5
+
+function displayName(firstName: string, lastName: string) {
+  console.log(`My name is ${firstName} ${lastName}`);
+}
+
+const firstName: string = "Axel-Ange";
+const lastName: string = "LARE";
+
+displayName(firstName, lastName);
